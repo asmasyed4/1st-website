@@ -18,86 +18,98 @@
         </ul>
       </nav>
       <header>
-        <div>
-          <h1>Best place to learn Frontend</h1>
-          <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
-          <button>Start Now</button>
+        <div class="row">
+          <div>
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheader">
+              Go from absolute beginner to pro with a simplified process
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img
+              src="./HTML Practise Assets/laptop.png"
+              alt="home page image"
+            />
+          </figure>
         </div>
-      <figure>
-        <img src="./HTML Practise Assets/laptop.png" alt="home page image" />
-      </figure>
       </header>
     </section>
 
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-            distinctio voluptate quas aspernatur, illum, facere, unde placeat
-            corporis eligendi asperiores veniam nisi. Quod distinctio, illum
-            laudantium voluptas provident ea nesciunt!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolor
-            praesentium, autem nisi expedita modi fugit neque nulla magnam
-            deserunt consequatur ducimus sit eligendi vitae rerum obcaecati
-            molestiae tempore molestias.
-          </p>
+        <div class="row">
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+              distinctio voluptate quas aspernatur, illum, facere, unde placeat
+              corporis eligendi asperiores veniam nisi. Quod distinctio, illum
+              laudantium voluptas provident ea nesciunt!
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              dolor praesentium, autem nisi expedita modi fugit neque nulla
+              magnam deserunt consequatur ducimus sit eligendi vitae rerum
+              obcaecati molestiae tempore molestias.
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="HTML Practise Assets/about.jpg" alt="" />
+          </figure>
         </div>
-        <figure>
-            <img src="HTML Practise Assets/about.jpg">
-        </figure>
+        </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea
-            ipsum corrupti ratione necessitatibus. Ipsum magnam asperiores
-            dicta, iure a voluptatibus quam numquam architecto corrupti,
-            consectetur sunt, minima totam quis.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-            voluptas delectus quisquam error nulla, veniam optio sint dolores
-            voluptatem minima temporibus voluptate enim? Alias nam ullam porro
-            provident. Expedita, id.
-          </p>
+        <div class="row">
+
+        <div class="section__description">
+          <figure>
+            <img src="HTML Practise Assets/discord.png" />
+          </figure>
+          <div>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              ea ipsum corrupti ratione necessitatibus. Ipsum magnam asperiores
+              dicta, iure a voluptatibus quam numquam architecto corrupti,
+              consectetur sunt, minima totam quis.
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+              voluptas delectus quisquam error nulla, veniam optio sint dolores
+              voluptatem minima temporibus voluptate enim? Alias nam ullam porro
+              provident. Expedita, id.
+            </p>
+          </div>
         </div>
-        <figure>
-            <img src="HTML Practise Assets/discord.png">
-        </figure>
+    </div>
       </section>
 
       <section id="contact">
-      <h2>Contact</h2>
-      <form>
-       <div> 
-        <label>Email</label>
-        <input type="email">
-        </div>
-        <div>
-        <label>Message</label>
-        <input type="text">
-        </div>
-      </form>
-      <button>Submit</button>
+        <h2>Contact</h2>
+        <form action="">
+          <span>Email</span>
+          <input type="email" placeholder="jane@example.com">
+
+          <span>Message</span>
+          <textarea type="text" placeholder="Cool website, lets get connected!"></textarea>
+        <button>Contact us!</button>
+        </form>
       </section>
     </main>
 
     <footer>
-        <img src="HTML Practise Assets/FES.svg">
-   <div>
-    <a href="#about">About</a>
-    <a href="#discord">Discord</a>
-    <a href="#contact">Contact</a>
-    <a href="">Courses</a>
-   </div>
-   <p>Copyright Frontend Simplified</p>
+      <img class="footer__logo" src="HTML Practise Assets/FES.svg" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
+      </div>
+      <p>Copyright Frontend Simplified</p>
     </footer>
-
   </body>
-</html> 
+</html>
